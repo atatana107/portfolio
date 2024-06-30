@@ -1,0 +1,31 @@
+
+.Certificate_conteiner {
+    background-color:transparent; /* Transparent white background */
+    width: auto;
+    height: 60px;
+    border-radius: 15px; /* Rounded corners */
+    border: 1px solid #e3dcd9;
+    margin-right: 30px;
+    
+
+  }
+  .Certificate_conteiner :nth-child(1)
+  {
+    font-family: 'Raleway';
+    font-size: 12px;
+    color:#C3B9B5;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .Certificate_conteiner :nth-child(2) a
+  {
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: 'Raleway';
+    font-size: 13px;
+    color: #000;
+    font-weight: 400;
+    white-space: nowrap;
+    margin-right: 5px;
+  }
+  

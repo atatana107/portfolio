@@ -1,0 +1,144 @@
+.Name_is_brand 
+{
+  display: flex;
+  justify-content: flex-end; /* Выравнивание элементов вправо */
+  align-items: center;
+  font-family: 'EB-Garamond';
+  font-size: 48px;
+  color: #080606;
+  position: relative;
+  width: 100%; /* Установка ширины контейнера */
+  height: 100%; /* Установка высоты контейнера */
+  text-align: left; /* Выравнивание содержимого контейнера по правому краю */
+  line-height: 100px;
+  margin-top: 200px;
+}
+.social_icons
+{
+  padding-top: 100px;
+  margin-left: -50px;
+}
+.social_icons a svg
+{
+  padding-left: 70px;
+  padding-right: 40px;
+  
+}
+.social_icons :hover svg path {
+  fill: #59443F; /* Change to the desired color */
+}
+.content {
+  position: absolute;
+  top: 28%; /* Позиционирование содержимого по вертикали относительно родительского контейнера */
+  left: 35%;
+  transform: translate(-50%, -50%); 
+  text-align: left; /* Изменение выравнивания текста на центр */
+}
+.button_brand {
+  position: absolute; /* Устанавливаем абсолютное позиционирование для кнопок */
+  top: 23%; /* Размещаем кнопки относительно верхнего края родительского контейнера */
+  left: 70px; /* Размещаем кнопки слева от заголовка */
+  transform: translateY(-50%); /* Центрируем кнопки вертикально */
+  cursor: pointer;
+  
+}
+.button_brand button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-bottom: 70px; /* Расстояние между кнопками */
+    background-color:transparent;
+    color:#C3B9B5;
+    position: relative;
+    font-family: 'Raleway';
+    font-size: 24px;
+    border-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: transform 0.2s;
+}
+ .button_brand button::before
+{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  margin: -5px;
+  animation: none;
+} 
+.button_brand button.clicked::before {
+  animation: round 4s linear infinite; /* Активируем анимацию при клике на кнопку */
+  box-shadow: inset 0 0 0 2px #59443F; 
+}
+@keyframes round
+{
+  0%,100%
+  {
+    clip:rect(0px, 50px, 20px, 0);
+  }
+  25%
+  {
+    clip:rect(0px, 20px, 50px, 0);
+  }
+  50%
+  {
+    clip:rect(50px, 20px, 50px, 0);
+  }
+  75%
+  {
+    clip:rect(0px, 20px, 50px, 0);
+  }
+} 
+.button_brand button.clicked::before {
+  animation: round 4s linear infinite;
+}
+.Name_is_brand_title
+ {
+  margin-right: 20px; /* Установка отступа справа от заголовка */
+  padding-bottom: 37px; 
+}
+.back_image_brand 
+{
+  display: flex;
+  justify-content: flex-end; /* Выравнивание элементов вправо */
+  align-items: center;
+  height: 770px;
+  position: relative;
+  top: -100px;
+  overflow: hidden;
+}
+.brand_content_button
+{ 
+border: #FFC59E;
+margin-left: 10px;
+width: 297px;
+height: 68px;
+filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+background: #FFC59E;
+box-shadow: inset 0px 4px 20px #FFC59E;
+border-radius: 33.5px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 20px;
+color: #F5F5F5;
+cursor: pointer;
+transition: transform 0.2s;
+}
+.brand_content_button:hover
+{
+  background-color: #59443F;
+  color: #F5F5F5;
+  box-shadow: inset 0px 4px 20px #59443F;
+}
+.Name_is_brand_title {
+  height: 300px; /* Установите одинаковую высоту для всех текстовых блоков */
+  width: 515px;
+  overflow: hidden; /* Предотвращение смещения текста, если блок превышает высоту */
+}

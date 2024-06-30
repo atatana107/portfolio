@@ -1,0 +1,58 @@
+
+.advantages_title
+{
+  margin-bottom: 20px;
+  font-family: 'EB-Garamond';
+  font-size: 48px;
+  text-align: center;
+  color: #59443F;
+  margin-top: 100px;
+}
+.post_title{
+  font-family: 'EB-Garamond';
+  font-size: 20px;
+  flex:1;
+  grid-column: 1 / -1;
+  color: #080606;
+}
+/*.nav_advant
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 5px; 
+}*/
+.post 
+{
+  grid-template-rows: 30% 70%;
+  padding: 20px; /* Добавление отступов для размещения контента */
+  display: grid;
+  grid-template-columns: 35% 65%; /* Создаем две колонки - для изображения и контента */
+  padding: 70px; /* Добавление отступов для размещения контента */
+  justify-content: center;
+  transition: transform 0.3s; 
+  cursor: pointer;
+  
+}
+.post:hover {
+  transform: translateY(-8px); /* При наведении компонент будет приподниматься вверх на 5px */
+}
+
+.post_img {
+  grid-column: 1; /* Это изображение будет в первой колонке */
+  margin-right: 10px;
+
+}
+
+.post_img img {
+  max-width: 100px; /* Максимальная ширина изображения, чтобы избежать перекоса макета */
+}
+
+.post_content {
+  grid-column: 2; /* Этот блок контента будет во второй колонке */
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: justify;
+  color: 59443F;
+}

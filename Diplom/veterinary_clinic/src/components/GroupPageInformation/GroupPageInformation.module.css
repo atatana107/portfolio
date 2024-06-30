@@ -1,0 +1,104 @@
+.Title_Group
+{
+    margin-top: 100px;
+    font-family: 'EB+Garampnd';
+    font-size: 42px;
+    margin-left: 147px;
+}
+.Title_Group h1
+{
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+.Link
+{
+    font-family: 'Raleway';
+    font-size: 22px;
+    padding-bottom: 30px;
+    color: #C3B9B5;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+}
+.Group_info 
+{
+ margin-right: 147px;
+ text-align: justify;
+}
+.Group_info p
+{
+    font-family: 'EB+Garamond';
+    color: #59443F;
+    line-height: 30px;
+}
+.Group_info_title
+{
+    font-size: 30px;
+    font-family: 'EB+Garamond';
+    color: #111111;
+    font-weight: 300;
+}
+.Group_conteiner
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-column-gap: 154px;
+    padding: 0;
+    margin: 0;
+}
+.Group_info img
+{
+    margin-top: 100px;
+    border-radius: 20px;
+    margin-bottom: 69px;
+    height: 513px;
+    width: 741px;
+}
+.Specialists
+{
+    font-family: 'EB+Garamond';
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    margin:100px 0 20px 314px;
+}
+.button_left, .button_right
+{
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  background-color: #FFC59E;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 20px;
+  color: #F5F5F5;
+  border: #FFC59E;
+  text-align: center;
+  left: -10px;
+  position: relative; /* Добавляем для использования относительного позиционирования */
+  top: 5px;
+  transition: transform 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.button_left
+{
+    left:235px;
+    top:400px;
+}
+.button_right
+{
+    left:1130px;
+    top:400px;
+}
+.Link:hover
+{
+    color: #FFC59E;
+}
+.button_right:hover
+{
+    transform: scale(1.1);
+}
+.button_left:hover
+{
+    transform: scale(1.1);
+}

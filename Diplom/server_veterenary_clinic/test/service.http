@@ -1,0 +1,34 @@
+
+//владельцы CRUD
+### Список всех
+GET /api/services/getall HTTP/1.1
+Host: localhost:7000
+### Получить один
+GET /api/services/getone/1 HTTP/1.1
+Host: localhost:7000
+
+### Получить все услуги выбранного напраления
+GET /api/services/1/subservice/getall HTTP/1.1
+Host: localhost:7000
+
+### Создать новый
+POST /api/services/create HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_service": 12, 
+    "Service_name": "Ортопедия"
+}
+### Обновить
+PUT /api/services/update/1 HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_service": 1, 
+    "Service_name": "Хирургия"
+}
+### Удалить
+DELETE /api/services/delete/1 HTTP/1.1
+Host: localhost:7000

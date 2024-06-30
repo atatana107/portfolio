@@ -1,0 +1,33 @@
+
+//владельцы CRUD
+### Список всех
+GET /api/subservices/getall HTTP/1.1
+Host: localhost:7000
+### Получить один
+GET /api/subservices/getone/1 HTTP/1.1
+Host: localhost:7000
+### Создать новый
+POST /api/subservices/create HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_subservice": 1, 
+    "Subervice_name": "Первичный прием хирурга", 
+    "Price": 300,
+    "ID_service": 1
+}
+### Обновить
+PUT /api/subservices/update/1 HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_subservice": 1, 
+    "Subervice_name": "Первичный прием хирурга", 
+    "Price": 500,
+    "ID_service": 1
+}
+### Удалить
+DELETE /api/subservices/delete/1 HTTP/1.1
+Host: localhost:7000

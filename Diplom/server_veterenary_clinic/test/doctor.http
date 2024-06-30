@@ -1,0 +1,107 @@
+
+//доктора CRUD
+### Список всех
+GET /api/doctor/getall HTTP/1.1
+Host: localhost:7000
+
+### Получить одну
+GET /api/doctor/getone/5 HTTP/1.1
+Host: localhost:7000
+
+### Получить одну
+GET /api/doctor/appoitment/3 HTTP/1.1
+Host: localhost:7000
+
+### Получить одну
+GET /api/doctor/1/certificates/getall HTTP/1.1
+Host: localhost:7000
+
+### Создать новую
+POST /api/doctor/create HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_doctor": 2,
+    "Name": "Людмила",
+    "Surname": "Алексеева",
+    "Patronymic": "",
+    "Date_birth": null,
+    "Experience": null,
+    "Phone": "",
+    "Information": ""
+}
+### Обновить
+PUT /api/doctor/update/1 HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_doctor": 2,
+    "Name": "Людмила",
+    "Surname": "Усанова",
+    "Patronymic": "",
+    "Date_birth": null,
+    "Experience": null,
+    "Phone": "",
+    "Information": ""
+}
+### Удалить
+DELETE /api/doctor/delete/9 HTTP/1.1
+Host: localhost:7000
+
+
+### создание доктора, у которого есть услуги
+POST /api/doctor/create HTTP/1.1
+Host: localhost:7000
+Content-Type: multipart/form-data; boundary=MultiPartFormDataBoundary
+
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="ID_doctor"
+Content-Type: text/plain; charset=utf-8
+
+3
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Name"
+Content-Type: text/plain; charset=utf-8
+
+Валерия
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Surname"
+Content-Type: text/plain; charset=utf-8
+
+Минеева
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Patronymic"
+Content-Type: text/plain; charset=utf-8
+
+Дмитриевна
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Date_birth"
+Content-Type: text/plain; charset=utf-8
+
+2001-12-23 22:35:00
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Experience"
+Content-Type: text/plain; charset=utf-8
+
+1
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Phone"
+Content-Type: text/plain; charset=utf-8
+
+89872145641
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Information"
+Content-Type: text/plain; charset=utf-8
+
+люблю кошек
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="props"
+Content-type: text/plain; charset=utf-8
+
+[{"serviceID": 1}
+]
+--MultiPartFormDataBoundary--
+
+

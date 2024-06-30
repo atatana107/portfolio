@@ -1,0 +1,163 @@
+
+.ContentServ 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-left: 400px;
+}
+  .InfoServInClinic 
+{
+    text-align: justify;
+    margin-right: 50px;
+    font-family: 'EB+Garamond';
+    color: #59443F;
+    line-height: 30px;
+    width: 800px;
+    margin-left: 50px;
+}
+  
+  .PriceServ 
+{
+    padding-left: 200px;
+    
+}
+  .AppoitmentBt 
+{
+    text-align: left;
+    width: 800px;
+
+}
+  .TitleServ h1
+{
+    margin-left: 143px;
+    margin-top: 100px;
+    font-family: 'EB+Garamond';
+    color: #080606;
+    font-size: 60px;
+    font-weight: 500;
+}
+.InfoServInClinic :nth-child(2)
+{
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.InfoServInClinic :nth-child(3)
+{
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.InfoServInClinic :nth-child(4)
+{
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.InfoServInClinic :nth-child(5)
+{
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.InfoServInClinic :nth-child(6)
+{
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.InfoServInClinic h2
+{
+    font-size: 30px;
+    font-family: 'EB+Garamond';
+    color: #111111;
+    font-weight: 500;
+}
+.AppoitmentBt h2
+{
+    font-size: 30px;
+    font-family: 'EB+Garamond';
+    color: #111111;
+    font-weight: 500;
+}
+.InfoServInClinic img
+{
+    width: 820px;
+    height: 500px;
+    border-radius: 10px;
+}
+.PriceServBt button
+{
+    background-color: transparent;
+    border-radius: none;
+    border-color: transparent;
+    font-family: 'Raleway';
+    font-size: 16px;
+    color:#C3B9B5;
+    cursor: pointer;
+    padding-left: 16px;
+    transition: transform 0.1s;
+}
+.PriceServBt button:hover
+{
+    color: #080606;
+    transform: scale(1.1);
+}
+
+.PriceServBt 
+{
+    display: flex;
+    justify-content: flex-end; /* Размещение кнопок справа */
+    margin-right: 240px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.PriceServ h2
+{
+    font-family: 'Raleway';
+    font-size: 24px;
+    color: #FFC59E;
+}
+
+.rigth_bt, .left_bt 
+{
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  background-color: #FFC59E;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 12px;
+  color: #F5F5F5;
+  border: #FFC59E;
+  text-align: center;
+  transition: transform 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.left_bt 
+{
+    position: absolute;
+    top: 55%;
+    right: 45px; /* Измените значение, чтобы подогнать под ваши требования */
+}
+.rigth_bt 
+{
+    position: absolute;
+    top: 55%;
+    left: 475px; /* Измените значение, чтобы подогнать под ваши требования */
+} 
+.Contein_Price
+{
+    height: auto;
+    width: 1030px;
+}
+
+.left_bt:hover
+{
+    transform: scale(1.1);
+    background-color: #59443F;
+}
+.rigth_bt:hover
+{
+    transform: scale(1.1);
+    background-color: #59443F;
+}

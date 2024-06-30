@@ -1,0 +1,28 @@
+//города CRUD
+### Список всех
+GET /api/city/getall HTTP/1.1
+Host: localhost:7000
+### Получить один
+GET /api/city/getone/1 HTTP/1.1
+Host: localhost:7000
+### Создать
+POST /api/city/create HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_city": 1,
+    "City": "Казань"
+}
+### Обновить
+PUT /api/city/update/1 HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_city": 1,
+    "City": "Зеленодольск"
+}
+### Удалить
+DELETE /api/city/delete/1 HTTP/1.1
+Host: localhost:7000

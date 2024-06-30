@@ -1,0 +1,156 @@
+//владельцы CRUD
+### Список всех
+GET /api/owner/getall HTTP/1.1
+Host: localhost:7000
+
+### Все пациенты владельца с мед.картами и анализами
+GET /api/owner/1/pets/getall HTTP/1.1
+Host: localhost:7000
+
+### Получить одного владельца
+GET /api/owner/getone/1 HTTP/1.1
+Host: localhost:7000
+### Создать владельца
+POST /api/owner/create HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_owner": 2,
+    "Name": "Саша", 
+    "Surname": "Толмазанов",
+    "Patronymic": "",
+    "City": "",
+    "Street": "",
+    "Phone": "",
+    "Information": "",
+    "House": "",
+    "Login": "qwerty123",
+    "Password": "5456"
+}
+### Обновить владельца
+PUT /api/owner/update/1 HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_owner": 2,
+    "Name": "Александр", 
+    "Surname": "Толмазанов",
+    "Patronymic": "Сергеевич",
+    "City": "",
+    "Street": "",
+    "Phone": "",
+    "Information": "Люблю своих хомячков",
+    "House": "",
+    "Login": "email.ru",
+    "Password": "qwerty123",
+    "role":"USER"
+}
+### Удалить владельца
+DELETE /api/owner/delete/10 HTTP/1.1
+Host: localhost:7000
+
+###авторизация владельца
+POST /api/owner/login HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "Login": "email.ru",
+    "Password": "qwerty123"
+}
+
+###регистрация владельца
+POST /api/owner/registration HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "Name": "Тест регистрации Имя",
+    "Surname": "Тест регистрации Фамилия",
+    "Patronymic": "Тест регистрации Отчество",
+    "Phone": "Тест регистрации телефон",
+    "Login": "test",
+    "Password": "test"
+}
+
+
+
+
+
+# ### Список всех товаров
+# GET /api/owner/getall HTTP/1.1
+# Host: localhost:7000
+
+# ### Получить один товар
+# GET /api/owner/getone/1 HTTP/1.1
+# Host: localhost:7000
+
+### Создать новый товар
+POST /api/owner/create HTTP/1.1
+Host: localhost:7000
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9vd25lciI6MSwiTG9naW4iOiJlbWFpbC5ydSIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNzE0NTQ3OTk0LCJleHAiOjE3MTQ2MzQzOTR9.JUKlVeoKftNFfnvRM7iTdApuvV6iJ4SByB5hhqlnE24
+Content-Type: multipart/form-data; boundary=MultiPartFormDataBoundary
+
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="ID_owner"
+Content-Type: text/plain; charset=utf-8
+
+3
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Name"
+Content-Type: text/plain; charset=utf-8
+
+Вика
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Surname"
+Content-Type: text/plain; charset=utf-8
+
+Полушкова
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Patronymic"
+Content-Type: text/plain; charset=utf-8
+
+Олеговна
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="City"
+Content-Type: text/plain; charset=utf-8
+
+Казань
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Street"
+Content-Type: text/plain; charset=utf-8
+
+ул.Ершова
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="House"
+Content-Type: text/plain; charset=utf-8
+
+55В
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Phone"
+Content-Type: text/plain; charset=utf-8
+
+89876545677
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Information"
+Content-Type: text/plain; charset=utf-8
+
+Товар № 4
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Login"
+Content-Type: text/plain; charset=utf-8
+
+email2@.ru
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Password"
+Content-Type: text/plain; charset=utf-8
+
+password123
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="role"
+Content-Type: text/plain; charset=utf-8
+
+USER
+--MultiPartFormDataBoundary--

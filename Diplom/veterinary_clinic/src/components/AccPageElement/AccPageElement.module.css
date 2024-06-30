@@ -1,0 +1,162 @@
+.accpageelemnt button:hover 
+{
+    color:#FFC59E;
+    cursor: pointer;
+}
+.accpageelemnt
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.accpageelemnt button 
+{
+    margin-left: 143px;
+    margin-top: 20px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    color: #C3B9B5;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 15px;
+}
+.accpageelemnt h2
+{
+    margin-left: 143px;
+    margin-top:100px;
+    font-family:'EB+Garamond';
+    font-size:60px;
+    color:#000000;
+}
+.accpageelemnt .createPet
+{
+    background-color: #FFC59E;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: transform 0.3s;
+}
+.accpageelemnt .createPet:hover
+{
+    transform: scale(0.9);
+    color: #FFFFFF;
+}
+.modal_create_petByUser
+  {
+    background-color: #efe9e6;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 430px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+  .modal_create_petByUser h3{
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    margin-left: -70px;
+    margin-bottom: 20px;
+  }
+  .ModalInfo
+{
+  background-color: #ffffff;
+  color: #524538;
+  font-family: 'Raleway';
+  width: 400px;
+  height: 100px;
+  align-items: center;
+  top: 35%;
+  left: 35%;
+  position: fixed;
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+}
+.ModalInfo p
+{
+  padding-left: 100px;
+  padding-top: 35px;
+  font-size: 17px;
+}
+  .modal_create_petByUser input
+  {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    background-color: #FFFFFF;
+    width: 200px;
+    margin-top: 0;
+    color: #000;
+    margin-left: -80px;
+    font-family: 'Raleway';
+    padding-left: 10px;
+
+  }
+  .modal_create_petByUser input::placeholder
+  {
+    color: #C3B9B5;
+  }
+  .modal_create_petByUser .CloseCreate
+  {
+    margin-left: 460px;
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    padding-top: 50px
+
+  }
+
+  .updateMessage{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 60px;
+    background-color: #FFC59E;
+    padding-top: 35px;
+    padding-left: 5px;
+    font-family: 'Raleway';
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+
+  }
+  .modal_create_petByUser  label input[type="file"]
+  {
+    width: 0px;
+    height: 0px;
+  }
+  .modal_create_petByUser label
+  {
+    background-color: #FFC59E;
+    border-radius: 5px;
+    width: 190px;
+    padding-left: 20px;
+    padding-top: 2px;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: -80px;
+  }
+  

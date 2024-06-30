@@ -1,0 +1,36 @@
+### Список всех услуг доктора id=1
+GET /api/doctor/1/service/getall HTTP/1.1
+Host: localhost:7000
+
+### все врачи с их услугами
+GET /api/doctor/services/getall HTTP/1.1
+Host: localhost:7000
+
+
+### Получить одно свойство товара
+GET /api/doctor/3/service/getone/1 HTTP/1.1
+Host: localhost:7000
+
+### Создать новое свойство товара
+POST /api/doctor/1/service/create HTTP/1.1
+Host: localhost:7000
+Content-type: application/json; charset=utf-8
+
+{
+    "ID_doctor": 1,
+    "ID_service": 2
+}
+
+### Обновить свойство товара
+PUT /api/doctor/1/service/update/3 HTTP/1.1
+Host: localhost:7000
+Content-type: application/json; charset=utf-8
+
+{
+    "name": "Свойство товара (updated)",
+    "value": "Значение свойства (updated)"
+}
+
+### Удалить свойство товара
+DELETE /api/doctor/1/service/delete/3 HTTP/1.1
+Host: localhost:7000

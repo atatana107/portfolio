@@ -1,0 +1,49 @@
+.containerReviews {
+    display: flex;
+    width: 600px;
+    height: auto;
+    border: 1.5px solid #59443F;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.reviewClientPhoto {
+    width: 30%;
+    
+}
+
+.reviewContent {
+    flex: 1; 
+    padding: 20px; 
+}
+
+.containerReviews img {
+    border-radius: 100px;
+    width: calc(100%/3);
+    height: 120px;
+    object-fit: cover;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.containerReviews h2 {
+    font-family: 'Raleway';
+    color: #C3B9B5;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.containerReviews p {
+    font-family: 'Raleway';
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.containerReviews :nth-child(4) {
+    margin-bottom: 30px;
+}

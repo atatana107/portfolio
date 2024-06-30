@@ -1,0 +1,87 @@
+
+.doctors_container
+ {
+  display: flex; /* Используем flexbox для размещения элементов в строку */
+  align-items: center; /* Выравниваем кнопки и изображения по вертикали */
+  justify-content: space-evenly;
+}
+.doctors{
+  background-color:#FBF8F8 ;
+}
+.doctors_gallery {
+  display: flex; /* Используем flexbox для обертки изображений */
+  overflow-x: auto;  /* Добавляем прокрутку по горизонтали, если изображений слишком много для контейнера */
+  padding-bottom: 57px;
+  margin-top: 70px;
+  overflow: visible;
+}
+.doctors_gallery img {
+  margin-right: 10px; /* Регулируйте значение, чтобы достичь желаемого расстояния */
+  border-radius: 100px;
+  width: calc(100%/3);
+  height: 200px;
+  object-fit: cover;
+  width: 200px;
+  cursor: pointer;
+}
+
+.doctors_container .doctors_gallery
+{
+  overflow: hidden;
+  white-space: nowrap;
+}
+.doctors_title
+{
+  text-align: center;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 36px;
+  padding-top: 65px;
+  padding-bottom: 0;
+}
+
+button.button_left, button.button_right 
+{
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  background-color: #FFC59E;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 20px;
+  color: #F5F5F5;
+  border: #FFC59E;
+  text-align: center;
+	left: -10px;
+  position: relative; /* Добавляем для использования относительного позиционирования */
+  top: 5px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+button.button_right:hover
+{
+  transform: scale(1.1);
+} 
+button.button_left:hover
+{
+  transform: scale(1.1);
+} 
+.show_doctors
+{
+  margin: 0 auto; /* Устанавливаем автоматичесные отступы слева и справа для центрирования */
+  display: block;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: 'Raleway';
+  font-weight: bold;
+  color: #FFC59E;
+  font-size: 24px;
+  padding-bottom: 80px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.show_doctors:hover
+{
+  transform: scale(1.1);
+}

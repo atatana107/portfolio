@@ -1,0 +1,73 @@
+//записи CRUD
+### Список всех
+GET /api/appoitment/getall HTTP/1.1
+Host: localhost:7000
+###
+GET /api/appoitment/admin/getall HTTP/1.1
+Host: localhost:7000
+
+###
+GET /api/appoitment/getdoctors?cityId=1&serviceId=3 HTTP/1.1
+Host: localhost:7000
+
+###
+GET /api/appoitment/getappoitment?cityId=1&serviceId=1&doctorId=3 HTTP/1.1
+Host: localhost:7000
+
+###
+GET /api/appoitment/appointmentsByParam?ID_service=1&ID_doctor=3&Date_appoitment=2024-07-04T13:00:00.000Z&ID_city=1
+Host: localhost:7000
+
+### все направления записей в выбранном городе
+GET /api/appoitment/services/getall/1 HTTP/1.1
+Host: localhost:7000
+
+### все врачи записей в выбранном городе
+GET /api/appoitment/doctors/getall/1 HTTP/1.1
+Host: localhost:7000
+
+
+### Получить одну
+GET /api/appoitment/getone/1 HTTP/1.1
+Host: localhost:7000
+### Создать новую
+POST /api/appoitment/create HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID": 2,
+    "ID_patient": null,
+    "ID_doctor": null,
+    "ID_owner": null,
+    "Date_appoitment": "2024-08-03 14:15:00",
+    "Diagnosis": null,
+    "Cost": null,
+    "ID_service": null,
+    "State_reservation": 0,
+    "ID_city": null
+}
+### Обновить
+PUT /api/appoitment/update/1 HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID": 2,
+    "ID_patient": null,
+    "ID_doctor": null,
+    "ID_owner": null,
+    "Date_appoitment": "2024-08-04 14:20:00",
+    "Diagnosis": null,
+    "Cost": null,
+    "ID_service": null,
+    "State_reservation": 0,
+    "ID_city": null
+}
+### Удалить
+DELETE /api/appoitment/delete/2 HTTP/1.1
+Host: localhost:7000
+
+
+
+

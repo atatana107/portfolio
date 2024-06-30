@@ -1,0 +1,145 @@
+.history_title
+{
+    font-family: 'EB-Garamond';
+    font-size: 64px;
+    font-weight: 400;
+    color: #0e0d0d;
+    margin-top: 120px;
+    margin-left: 143px;
+    display: inline-block;
+}
+.history_title, .img_group 
+{
+  vertical-align: top; /* Выравниваем текст и изображение по верхнему краю */
+}
+.img_group
+{
+    padding-top: 120px;
+    margin-left: 100px;
+    height: 412px;
+}
+.history_text
+{
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0e0d0d;
+    margin-top: 60px;
+    line-height: 40px;
+    text-align: justify;
+    padding-left: 143px;
+    padding-right: 143px;
+}
+.history_groom_img
+{
+    flex: 0 0 auto; /* Изображение не будет увеличиваться или уменьшаться, оставляем его в исходном размере */
+    margin-right: 20px; /* Добавляем отступ между изображением и текстом */
+    padding-left: 143px;
+    margin-top: 60px;
+}
+.history_groom_img,.history_groom_text
+{
+    vertical-align: top;   
+}
+.history_groom_text
+{
+    display: inline-block;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0e0d0d;
+    margin-top: 60px;
+    line-height: 40px;
+    text-align: justify;
+    flex: 1; /* Растягиваем текст на всю доступную ширину */
+    padding-right: 143px;
+    padding-left: 20px;
+}
+
+.history_groom 
+{
+    display: flex; /* Располагаем элементы в строку */
+    align-items: top; /* Выравниваем элементы по центру по вертикали */
+}
+.history_big_center
+{
+    display: flex; /* Располагаем элементы в строку */
+    align-items: top; /* Выравниваем элементы по центру по вертикали */
+}
+.history_big_center_text
+{
+    display: inline-block;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0e0d0d;
+    margin-top: 60px;
+    line-height: 40px;
+    text-align: justify;
+    flex: 1; /* Растягиваем текст на всю доступную ширину */
+    padding-right: 20px;
+    padding-left: 143px;
+}
+.history_big_center_img
+{
+    flex: 0 0 auto; /* Изображение не будет увеличиваться или уменьшаться, оставляем его в исходном размере */
+    margin-left: 20px; /* Добавляем отступ между изображением и текстом */
+    padding-right: 143px;
+    margin-top: 60px;
+    height: 380px;
+    width: 546px;
+}
+.history_big_center_img, .history_big_center_text
+{
+    vertical-align: top;   
+}
+
+
+.ultrasound
+{
+    display: flex; /* Располагаем элементы в строку */
+    align-items: top; /* Выравниваем элементы по центру по вертикали */
+}
+.ultrasound_text
+{
+    display: inline-block;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0e0d0d;
+    margin-top: 60px;
+    line-height: 40px;
+    text-align: justify;
+    flex: 1; /* Растягиваем текст на всю доступную ширину */
+    padding-right: 143px;
+    padding-left: px;
+}
+.ultrasound_img
+{
+    flex: 0 0 auto; /* Изображение не будет увеличиваться или уменьшаться, оставляем его в исходном размере */
+    margin-left: 143px; /* Добавляем отступ между изображением и текстом */
+    padding-right: 20px;
+    margin-top: 60px;
+}
+.ultrasound_img, .ultrasound_text
+{
+    vertical-align: top;   
+}
+.mission_title
+{
+    font-family: 'EB-Garamond';
+    font-size: 64px;
+    font-weight: bolder;
+    color: #0e0d0d;
+    padding-left: 120px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+
+}
+.mission_title_clr
+{
+    font-family: 'EB-Garamond';
+    font-size: 64px;
+    font-weight: bolder;
+    color:#FFC59E
+}

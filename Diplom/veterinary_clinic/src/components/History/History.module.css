@@ -1,0 +1,46 @@
+.history
+{
+  background-color: #FBF8F8;
+  margin-top: 100px;
+}
+.history_title
+{
+  font-family: 'EB-Garamond';
+  font-size: 48px;
+  color: #080606;
+  font-weight: 400;
+  padding-bottom: 60px;
+  text-align: center;
+  padding-top: 30px;
+}
+.history_text
+{
+  font-family: 'Raleway';
+  font-size: 24px;
+  line-height: 48px;
+  color: #080606;
+  padding-left: 432px;
+  padding-bottom: 54px;
+  text-align: justify;
+  padding-right: 432px;
+}
+.button_history_read
+{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFC59E;
+    text-align: center;
+    margin: 0 auto; /* Устанавливаем автоматичесные отступы слева и справа для центрирования */
+    display: block;
+    transition: transform 0.2s;
+
+}
+.button_history_read:hover
+{
+  transform: scale(1.1);
+  cursor: pointer;
+}

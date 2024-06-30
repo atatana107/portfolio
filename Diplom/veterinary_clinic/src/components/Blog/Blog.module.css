@@ -1,0 +1,147 @@
+.title_blog
+{
+    margin-top: 100px;
+    margin-left: 143px;
+    font-family: 'EB+Garamond';
+    font-size: 60px;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 100px;
+}
+.article_one img
+{
+    margin-left: 143px;
+    border-radius: 30px;
+    
+}
+.article_one p
+{
+    margin-left: 600px;
+    top:-500px;
+    text-align: justify;
+    margin-right: 143px;
+}
+.article_one h4
+{
+    margin-left: 600px;
+    top:-500px;
+    text-align: justify;
+    margin-right: 143px;
+}
+.article_one p
+{
+    font-family: 'EB+Garamond';
+    font-size: 15px;
+    line-height: 30px;
+    color: #59443F;
+}
+.article_one h3
+{
+    margin-top: -550px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 570px;
+    margin-bottom: 50px;
+}
+.article_one h4
+{
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-family: 'Raleway';
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFC59E;
+
+
+}
+.article_two h3
+{
+    margin-top: 100px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 143px;
+    margin-bottom: 50px;
+}
+.article_two p
+{
+    font-family: 'EB+Garamond';
+    font-size: 15px;
+    line-height: 30px;
+    color: #59443F; 
+    margin-left: 170px;
+    text-align: justify;
+    margin-right: 800px;
+}
+.article_two h4
+{
+    margin-left: 170px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-family: 'Raleway';
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFC59E;
+}
+.article_two img
+{
+    margin-left: 740px;
+    width: 600px;
+    height: auto;
+    margin-right: 143px;
+    border-radius: 30px;
+}
+.article_two :nth-child(3)
+{
+    margin-top: -615px;
+}
+.article_three h3
+{
+    margin-top: 100px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 800px;
+    margin-bottom: 50px;
+}
+.article_three img
+{
+    margin-left: 143px;
+    border-radius: 30px;
+    width: 600px;
+    height: auto;
+    margin-top: -70px;
+    
+}
+.article_three p
+{
+    font-family: 'EB+Garamond';
+    font-size: 15px;
+    line-height: 30px;
+    color: #59443F;
+    margin-left: 830px;
+    text-align: justify;
+    margin-right: 143px;
+}
+.article_three :nth-child(3)
+{
+    margin-top: -340px;
+}
+.article_three h4
+{
+    font-family: 'Raleway';
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFC59E;
+    margin-left: 830px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.article_three :nth-child(10)
+{
+    margin-bottom: 100px;
+}

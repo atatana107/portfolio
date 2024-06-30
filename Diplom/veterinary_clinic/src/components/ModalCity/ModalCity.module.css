@@ -1,0 +1,68 @@
+.modal
+{
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center; /* Выравнивание содержимого по горизонтали по центру */
+    align-items: center; /* Выравнивание содержимого по вертикали по центру */
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4); /* Цвет и прозрачность затемнения */
+    
+   }
+h2
+{
+    font-family: 'EB+Garamond';
+    font-size: 22px;
+    margin-bottom:40px ;
+    color: #59443F;
+    margin-top: 50px;
+    
+}
+.button_One
+{
+    font-family: 'Raleway';
+    font-size: 16px;
+    background: none; /* Удаление фона кнопок */
+    border: none;
+    cursor: pointer;
+    padding-bottom: 30px;
+}
+.modal_content 
+{
+    text-align: center; /* Выравнивание содержимого внутри модального окна по центру */
+    flex-direction: column; 
+    display: flex;
+    border-radius: 20px;
+    z-index: 2;
+    background-color: #ffffff;
+    height: 220px;
+    width: 350px;
+    
+}
+.close 
+{
+padding-left: 320px;
+position: absolute;
+padding-top: 10px;
+cursor: pointer;
+font-weight: 700;
+}
+
+.button_Two
+{
+    font-family: 'Raleway';
+    font-size: 16px;
+    background: none; /* Удаление фона кнопок */
+    border: none;
+    cursor: pointer;
+}
+.button_One:hover{
+    color: #FFC59E;
+}
+.button_Two:hover{
+    color: #FFC59E;
+}
+.close:hover{
+    color: #FFC59E; 
+}

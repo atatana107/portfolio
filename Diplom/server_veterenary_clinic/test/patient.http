@@ -1,0 +1,41 @@
+
+### Список всех
+GET /api/patient/getall HTTP/1.1
+Host: localhost:7000
+
+### Получить один
+GET /api/patient/getone/1 HTTP/1.1
+Host: localhost:7000
+### Создать новый
+POST /api/patient/create HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_owner": null,
+    "Name": "Пухлик", 
+    "ID_patient": 3,
+    "Gender": "мальчик",
+    "Type": "",
+    "Breed": "",
+    "Age": null,
+    "Type_age": "1"
+}
+### Обновить
+PUT /api/patient/update/1 HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_owner": null,
+    "Name": "Пухлик", 
+    "ID_patient": 3,
+    "Gender": "девочка",
+    "Type": "",
+    "Breed": "",
+    "Age": null,
+    "Type_age": "1"
+}
+### Удалить
+DELETE /api/patient/delete/2 HTTP/1.1
+Host: localhost:7000

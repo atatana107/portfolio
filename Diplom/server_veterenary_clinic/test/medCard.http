@@ -1,0 +1,98 @@
+
+//мед. карты CRUD
+### Список всех
+GET /api/med_card/getall HTTP/1.1
+Host: localhost:7000
+
+### Список всех
+GET /api/med_card/get-pdf/Мед.карта.pdf HTTP/1.1
+Host: localhost:7000
+
+
+### Получить один
+GET /api/med_card/getone/3 HTTP/1.1
+Host: localhost:7000
+### Создать новый
+POST /api/med_card/create HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_card": 2,
+    "Card": "путь_2",
+    "Date_create":null,
+    "ID_patient": 1
+}
+
+### создание анализа с файлом
+POST /api/med_card/create HTTP/1.1
+Host: localhost:7000
+Content-Type: multipart/form-data; boundary=MultiPartFormDataBoundary
+
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="ID_patient"
+
+1
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="ID_card"
+
+6
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Date_create"
+
+2023-06-01 11:51:00
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Card"; filename="Мед.карта.pdf"
+Content-Type: application/pdf
+
+<./filesPDF/Мед.карта.pdf>
+--MultiPartFormDataBoundary--
+
+### Обновить
+PUT /api/med_card/update/1 HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_card": 2,
+    "Card": "путь_2",
+    "Date_create":null,
+    "ID_patient": 1
+}
+
+
+### создание анализа с файлом
+POST /api/med_card/update/3 HTTP/1.1
+Host: localhost:7000
+Content-Type: multipart/form-data; boundary=MultiPartFormDataBoundary
+
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="ID_patient"
+
+1
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="ID_card"
+
+3
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Date_create"
+
+2023-06-01 11:51:00
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Card"; filename="Мед.карта.pdf"
+Content-Type: application/pdf
+
+<./filesPDF/Мед.карта.pdf>
+--MultiPartFormDataBoundary--
+
+### Обновить
+PUT /api/med_card/update/1 HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+### Удалить
+DELETE /api/med_card/delete/7 HTTP/1.1
+Host: localhost:7000
+
+
+

@@ -1,0 +1,56 @@
+.Conteiner_new
+{
+
+    margin-bottom: 100px;
+    margin-left: 500px;
+    width: 850px;
+    height: auto;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: 0 1px 30px 0 rgba(142, 146, 146, 0.75);
+    cursor: pointer;
+    transition: translateY 0.3s;
+}
+.New_photo img
+{
+    margin-left: 30px;
+    width: 300px;
+    height: auto;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+.New_desc h3
+{
+    margin-top: -200px;
+    margin-left: 400px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFC59E;
+}
+.New_desc p
+{
+    margin-top: 30px;
+    text-align: justify;
+    width: 400px;
+    line-height: 30px;
+    margin-left: 400px;
+    margin-right: 50px;
+    padding-bottom: 30px;
+    font-family: 'EB+Garamond';
+    font-size: 15px;
+    color: black;
+
+}
+.New_desc :nth-child(3)
+{
+    color: #C3B9B5;
+    font-family: 'Raleway';
+    font-size: 15px;
+    font-weight: 600;
+}
+.Conteiner_new:hover
+{
+    transform: translateY(-5px);
+}

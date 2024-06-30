@@ -1,0 +1,274 @@
+.accpageelemnt button:hover 
+{
+    color:#FFC59E;
+    cursor: pointer;
+}
+.accpageelemnt
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.accpageelemnt button 
+{
+    margin-left: 143px;
+    margin-top: 20px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    color: #C3B9B5;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 15px;
+}
+.accpageelemnt h2
+{
+    margin-left: 143px;
+    margin-top:100px;
+    font-family:'EB+Garamond';
+    font-size:60px;
+    color:#000000;
+}
+.accpageelemnt .createButton
+{
+    background-color: #FFC59E;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    margin-top: 100px;
+    color: #FFFFFF;
+    transition: transform 0.3s;
+}
+.accpageelemnt .createPet
+{
+    background-color: #41342a;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: transform 0.3s;
+}
+.accpageelemnt .createPet:hover
+{
+    transform: scale(0.9);
+    color: #FFFFFF;
+}
+
+.accpageelemnt .createButton:hover
+{
+    transform: scale(1.1);
+    color: #FFFFFF;
+}
+.accpageelemnt .deleteButton
+{
+    background-color: #4c392e;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    transition: transform 0.3s;
+}
+.accpageelemnt .deleteButton:hover
+{
+    transform: scale(1.1);
+    color: #FFFFFF;
+}
+.modal_create
+  {
+    background-color: #efe9e6;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 530px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.35));
+
+}
+  .modal_create h3{
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    margin-bottom: 20px;
+    margin-left: -40px;
+    font-size: 20px;
+    
+  }
+  .modal_create input
+  {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    background-color: #FFFFFF;
+    width: 200px;
+    margin-top: 0;
+    color: #000;
+    margin-left: -80px;
+    padding-left: 20px;
+  }
+
+  .modal_create input::placeholder
+  {
+    
+    color: #C3B9B5;
+  }
+  .modal_create .CloseCreate
+  {
+    margin-left: 450px;
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: -10px;
+
+  }
+
+  .updateMessage{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 60px;
+    background-color: #FFC59E;
+    padding-top: 35px;
+    padding-left: 5px;
+    font-family: 'Raleway';
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+
+  }
+  .modal_create  label input[type="file"]
+  {
+    width: 0px;
+    height: 0px;
+  }
+  .modal_create  label
+  {
+    background-color: #FFC59E;
+    width: 200px;
+    height: 25px;
+    padding-left: 20px;
+    font-family: 'Raleway';
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: -80px;
+  }
+  .ModalInfo
+  {
+    background-color: #ffffff;
+    color: #524538;
+    font-family: 'Raleway';
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    top: 35%;
+    left: 35%;
+    position: fixed;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+  }
+  .ModalInfo p
+  {
+    padding-left: 100px;
+    padding-top: 35px;
+    font-size: 17px;
+  }
+
+  .modal_create_pet
+  {
+    background-color: #efe9e6;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 430px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.35));
+
+}
+.modal_create_pet h3{
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    margin-bottom: 20px;
+    margin-left: -90px;
+    font-size: 20px;
+    
+  }
+  .modal_create_pet input
+  {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    background-color: #FFFFFF;
+    width: 200px;
+    margin-top: 0;
+    color: #000;
+    margin-left: -80px;
+    padding-left: 20px;
+    font-family: 'Raleway';
+  }
+
+  .modal_create_pet input::placeholder
+  {
+    
+    color: #C3B9B5;
+  }
+  .modal_create_pet .CloseCreate
+  {
+    margin-left: 450px;
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-family: 'Raleway';
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+
+  }
+  .modal_create_pet  label input[type="file"]
+  {
+    width: 0px;
+    height: 0px;
+  }
+  .modal_create_pet  label
+  {
+    background-color: #FFC59E;
+    width: 200px;
+    height: 25px;
+    padding-left: 20px;
+    font-family: 'Raleway';
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: -80px;
+  }

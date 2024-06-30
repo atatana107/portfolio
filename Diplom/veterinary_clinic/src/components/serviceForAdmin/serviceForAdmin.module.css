@@ -1,0 +1,376 @@
+/* Стили для таблицы */
+
+.table {
+    width: 800px;
+    border-collapse: collapse;
+    margin-top: 20px; /* Расстояние сверху от таблицы */
+    margin-bottom: 100px;
+    margin-left: 500px;
+    font-weight: 300;
+
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Границы ячеек */
+    margin-left: 0;
+    text-align: center; /* Выравнивание по центру */
+    font-family: 'Raleway';
+  }
+  
+  th {
+    background-color: #FFC59E; /* Цвет фона заголовков */
+  }
+  
+  /* Стили для заголовка таблицы */
+  
+  thead {
+    background-color: #4CAF50; /* Цвет фона заголовка */
+    color: white; /* Цвет текста заголовка */
+    font-size: 11px;
+    font-family: 'Raleway';
+    font-weight: 300;
+  }
+  
+  /* Стили для четных строк в теле таблицы */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Цвет фона для четных строк */
+  }
+  
+  /* Расстояние между ячейками таблицы */
+  th, td {
+    padding: 10px;
+  }
+  .modalCreateSubservice
+  {
+    background-color: #ece6e3;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: left;
+  }
+  .modal_choice
+  {
+    background-color: #ece6e3;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  .modalCreateSubservice h4
+  {
+    color: #ffffff;
+    margin-left: -90px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .modalCreateSubservice .button_create
+  {
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Raleway';
+    transition: transform 0.3s;
+    cursor: pointer;
+    margin-left: 170px;
+    margin-top: 20px  }
+  .modalCreateSubservice .button_create:hover
+  {
+    transform: scale(1.1);
+  }
+  .modalCreateSubservice .close
+  {
+    background-color: transparent;
+    font-family: 'Raleway';
+    font-size: 30px;
+    border:none;
+    margin-left: 360px;
+  }
+    
+  .modalCreateSubservice input
+  {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    margin-left: -100px;
+    margin-top: 15px;
+    width: 200px;
+    padding-left: 10px;
+  
+  }
+  
+  .modalCreateSubservice input::placeholder
+  {
+
+    color: #C3B9B5;
+    font-family: 'Raleway';
+  }
+  .modal_choice h4
+  {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .modal_choice button
+  {
+    background-color: #ffffff;
+    border: none;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    font-family: 'Raleway';
+    color: #FFC59E;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .modal_choice button:hover
+  {
+    color: #ffffff;
+    background-color: #53443c;
+  }
+
+
+  .modal
+  {
+    background-color: #ece6e3;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;  
+    display: flex;
+    flex-direction: column;
+    align-self: left;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+  }
+  .modal h4
+  {
+    color: #ffffff;
+    margin-left: -50px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .modal .button_create
+  {
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Raleway';
+    transition: transform 0.3s;
+    cursor: pointer;
+    margin-left: 170px;
+    margin-top: 30px;    
+
+  }
+  .modal .button_create:hover
+  {
+    transform: scale(1.1);
+  }
+  .modal .close
+  {
+    background-color: transparent;
+    font-family: 'Raleway';
+    font-size: 30px;
+    border:none;
+    margin-left: 360px;
+  }
+    
+  .modal input
+  {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    margin-left: -100px;
+    margin-top: 15px;
+    width: 200px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-size: 15px;
+    padding-left: 20px;
+  
+  }
+  .modal input::placeholder
+  {
+    
+    color: #C3B9B5;
+    font-family: 'Raleway';
+  }
+ 
+.modal :nth-child(5) input[type="file"]
+{
+ display: none;
+ 
+}  
+.modal :nth-child(5)
+{
+  margin-left: -100px;
+  font-family: 'Raleway';
+  font-weight: 300;
+  font-size: 15px;
+  background-color: #ffffff;
+  width: 200px;
+  height: 23px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-left: 20px;
+  color:#C3B9B5;
+  padding-top: 5px;
+}
+.ModalInfo
+{
+  background-color: #ffffff;
+  color: #524538;
+  font-family: 'Raleway';
+  width: 400px;
+  height: 100px;
+  align-items: center;
+  top: 35%;
+  left: 35%;
+  position: fixed;
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+}
+.ModalInfo p
+{
+  padding-left: 100px;
+  padding-top: 35px;
+  font-size: 17px;
+}
+.edit:hover
+{
+  transform: scale(1.1);
+}
+.edit
+{
+  transition: transform 0.3s;
+}
+.create:hover
+{
+  transform: scale(1.1);
+}
+.create
+{
+  transition: transform 0.3s;
+}
+.modalService
+{
+  background-color: #ece6e3;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;  
+  display: flex;
+  flex-direction: column;
+  align-self: left;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+}
+.modalService h4
+{
+  color: #ffffff;
+  margin-left: -50px;
+  font-family: 'Raleway';
+  font-size: 20px;
+  font-weight: 800;
+}
+.modalService .button_create
+{
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  font-weight: 800;
+  font-size: 20px;
+  font-family: 'Raleway';
+  transition: transform 0.3s;
+  cursor: pointer;
+  margin-left: 170px;
+  margin-top: 30px;    
+
+}
+.modalService .button_create:hover
+{
+  transform: scale(1.1);
+}
+.modalService .close
+{
+  background-color: transparent;
+  font-family: 'Raleway';
+  font-size: 30px;
+  border:none;
+  margin-left: 360px;
+}
+  
+.modalService input
+{
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  height: 25px;
+  margin-left: -100px;
+  margin-top: 15px;
+  width: 200px;
+  font-family: 'Raleway';
+  font-weight: 300;
+  font-size: 15px;
+  padding-left: 20px;
+
+}
+.modalService input::placeholder
+{
+  
+  color: #C3B9B5;
+  font-family: 'Raleway';
+}
+
+.modalService :nth-child(4) input[type="file"]
+{
+display: none;
+
+}  
+.modalService :nth-child(4)
+{
+margin-left: -100px;
+font-family: 'Raleway';
+font-weight: 300;
+font-size: 15px;
+background-color: #ffffff;
+width: 200px;
+height: 23px;
+border-radius: 5px;
+cursor: pointer;
+padding-left: 20px;
+color:#C3B9B5;
+padding-top: 5px;
+}

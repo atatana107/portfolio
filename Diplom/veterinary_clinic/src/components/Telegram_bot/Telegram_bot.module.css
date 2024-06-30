@@ -1,0 +1,58 @@
+
+.telegram_bot_dog
+{
+  padding-left: 692px;
+}
+.telegram_bot_title
+{
+  padding-top: 100px;
+  padding-left: 200px;
+  font-family: 'EB-Garamond';
+  font-size: 48px;
+  color: #ffffff;
+  line-height: 70px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.telegram_bot
+{
+  /*background-image: url("C:/Users/Александр/Desktop/Tanya/Diplom/images/background_telegram_bot.png");*/
+  background-color: #FFC59E;
+  margin-top: 100px;
+
+}
+.telegram_phone {
+  position: absolute;
+  top: 5200px; /* Регулируйте смещение вверх/вниз по желанию */
+  left: 980px; /* Регулируйте смещение влево/вправо по желанию */
+  z-index: 1; /* Гарантирует, что элемент telegram_phone будет на переднем плане */
+}
+.telegram_bot_button
+{
+  border: #FFC59E;
+  overflow: visible;
+  margin-left: 440px;
+  width: 268px;
+  height: 60px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+  background: #ffffff;
+  box-shadow: inset 0px 4px 20px #F5F5F5;
+  border-radius: 33.5px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFC59E;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.button_container_teleg
+{position: relative;
+  top: 400px;
+}
+.telegram_bot_button:hover
+{
+ transform: scale(1.1);
+}

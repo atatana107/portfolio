@@ -1,0 +1,32 @@
+
+//владельцы CRUD
+### Список всех
+GET /api/reviews/getall HTTP/1.1
+Host: localhost:7000
+### Получить один
+GET /api/reviews/getone/1 HTTP/1.1
+Host: localhost:7000
+### Создать новый
+POST /api/reviews/create HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "Review": "test", 
+    "ID_doctor": 1,
+    "ID_owner": 1
+}
+### Обновить
+PUT /api/reviews/update/1 HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID": 1, 
+    "Review": "two", 
+    "ID_doctor": 1,
+    "ID_owner": 1
+}
+### Удалить
+DELETE /api/reviews/delete/1 HTTP/1.1
+Host: localhost:7000

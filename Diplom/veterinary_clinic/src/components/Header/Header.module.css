@@ -1,0 +1,97 @@
+.header {
+    padding-top: 30px;
+    margin-left: -57px;
+  }
+  .header_nav_li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 81px 1px;
+    margin-right: 5px;
+    white-space: nowrap;
+  }
+  .head_nav_li_item {
+    font-family: 'Raleway';
+    font-weight: bolder;
+    font-size: 20px;
+    color: #C3B9B5;
+    display: flex;
+    flex-direction: row;
+    margin-right: 70px;
+    cursor: pointer;
+  }
+  .head_nav_li_item svg {
+    padding-right: 10px;
+    padding-left: 30px;
+  }
+  .header .header_nav .header_nav_li .head_nav_li_item :hover svg path{
+    fill:#FFC59E;
+  }
+  .head_nav_li_item:hover
+  {
+    color: #FFC59E;
+  }
+  .head_nav_li_item p{
+    color: #FFC59E;
+  }
+  
+.head_nav_li_item:hover p,
+.header_nav_li :nth-child(7):hover svg path {
+  fill: #C3B9B5 !important;
+  color: #C3B9B5 !important;
+}
+.header_nav_li :nth-child(6)
+{
+  margin-right: 60px;
+}
+.header_nav_li :nth-child(2)
+{
+  margin-right: 10px;
+}
+.header_nav_li :nth-child(3)
+{
+  margin-right: 10px;
+}
+.header_nav_li :nth-child(4)
+{
+  margin-right: 10px;
+}
+.header_nav_li :nth-child(5)
+{
+  margin-right: 10px;
+}
+
+
+
+.conteiner
+{
+    height: 150px;
+    width: 210px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Raleway';
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    border: none;
+    position: absolute; /* фиксированное положение */
+     top: 90px; /* расположение сверху под хедером "О нас" */
+     left: 33%;
+     z-index: 2;
+    
+}
+.conteiner a{
+    padding-bottom: 10px;
+    padding-left: 30px;
+    color: black;
+}
+.conteiner :nth-child(1)
+{
+    margin-top: 30px;
+}
+
+.conteiner a:hover{
+  color:#FFC59E;
+}

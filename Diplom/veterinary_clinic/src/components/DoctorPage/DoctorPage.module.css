@@ -1,0 +1,265 @@
+
+.DocMainInfoPhoto img
+{
+  margin-right: 10px; /* Регулируйте значение, чтобы достичь желаемого расстояния */
+  border-radius: 170px;
+  width: calc(100%/4);
+  height: 300px;
+  object-fit: cover;
+  width: 300px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.DocMainInfo 
+{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 143px;
+  margin-top: 100px;
+}
+.DocMainInfoPhoto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 115px; 
+}
+.DoctorDescription 
+{
+  margin-right: 300px;
+  padding-left: 115px;
+
+}
+.DoctorDescription  nav
+{
+  position: absolute;
+}
+.DocMainInfoPhoto p
+{
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    color: #C3B9B5;
+    font-size: 14px;
+}
+.DocMainInfoPhoto button
+{
+    margin-bottom: 20px;
+    color: #F5F5F5;
+}
+.DocMainInfoPhoto :nth-child(3) :nth-child(1) 
+{
+    border: #FFC59E;
+    margin-left: 10px;
+    width: 200px;
+    height: 48px;
+    filter: drop-shadow(0px 4px 10px #FFC59E);
+    background: #FFC59E;
+    box-shadow: inset 0px 4px 20px #FFC59E;
+    border-radius: 33.5px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F5F5F5;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+link
+{
+    background-color: transparent;
+}
+.DocMainInfoPhoto :nth-child(4)
+{
+    border: none;
+    background-color: transparent;
+    color: #FFC59E;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.back
+{
+    border: none;
+    background-color: transparent;
+    color: #FFC59E;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+.DoctorDescription h3
+{
+    font-family: 'EB+Garamond';
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 30px;
+    color: #59443F;
+}
+.DoctorDescription .NavigationButtons h4
+{
+    font-family: 'EB+Garamond';
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #59443F;
+}
+.DoctorDescription h4
+{
+    font-family: 'EB+Garamond';
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #59443F;
+}
+.DoctorDescription p
+{
+    font-family: 'EB+Garamond';
+    font-size: 15px;
+    font-weight: 200;
+    color: #59443F;
+    text-align: justify;
+}
+.DoctorDescription_p
+{
+    font-family: 'EB+Garamond';
+    font-size: 15px;
+    font-weight: 200;
+    color: #59443F;
+    text-align: justify;
+    line-height: 30px;
+    padding-right: 20px;
+}
+.DoctorDescription :nth-child(3)
+{
+    color:#C3B9B5;
+    font-family: 'Raleway';
+    font-size: 14px;
+}
+.DoctorDescription .NavigationButtons :nth-child(2)
+{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #FFC59E;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 14px;
+    color: #F5F5F5;
+    border: #FFC59E;
+    text-align: center;
+    position: relative; /* Добавляем для использования относительного позиционирования */
+    transition: transform 0.3s;
+    cursor: pointer;
+    left:-50px;
+    top: 47px
+}
+.DoctorDescription .NavigationButtons :nth-child(3)
+{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #FFC59E;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 14px;
+    color: #F5F5F5;
+    border: #FFC59E;
+    text-align: center;
+    position: relative; /* Добавляем для использования относительного позиционирования */
+    transition: transform 0.3s;
+    cursor: pointer;
+    left:625px;
+    top: 47px
+}
+.DoctorDescription .NavigationButtons :nth-child(2):hover
+{
+    transform: scale(1.1);
+    background-color: #59443F;
+}
+.DoctorDescription .NavigationButtons :nth-child(3):hover
+{
+    transform: scale(1.1);
+    background-color: #59443F;
+}
+.DocMainInfoPhoto :nth-child(4):hover
+{
+    color: #59443F;
+    transform: scale(1.1);
+}
+.back:hover
+{
+    color: #59443F;
+    transform: scale(1.1);
+}
+.modal
+{
+    width: 487px;
+    height: 491px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.DoctorReview
+{
+    height: auto;
+    width: 600px;
+    margin-left: 570px;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+}
+.PriceBt {
+    display: flex;
+    flex-direction: row; /* Arrange the buttons horizontally */
+    justify-content: flex-end; /* Align the buttons to the right inside the container */
+    margin-bottom: 40px;
+  }
+  
+  .PriceBt button {
+    margin-left: 5px; /* Add some horizontal space between the buttons */
+    background-color: transparent;
+    border-radius: none;
+    border-color: transparent;
+    font-family: 'Raleway';
+    font-size: 16px;
+    color:#C3B9B5;
+    cursor: pointer;
+    padding-left: 16px;
+    transition: transform 0.1s;
+  }
+  .DoctorReview .Reviews_title
+  {
+    font-family: 'EB+Garamond';
+    font-size: 25px;
+    font-weight: 200;
+    color: #100f0f;
+
+  }
+  .PriceBt button:hover 
+  {
+    transform: scale(1.1);
+    color: #100f0f;
+  }
+  .DoctorReview nav
+  {
+    height: auto;
+  }
+  .DoctorDescription nav
+  {
+    display: flex; /* Размещаем сертификаты в строку */
+    flex-wrap: nowrap; /* Позволяет сертификатам переноситься на новую строку, если не помещаются на текущей */
+    justify-content: space-between; 
+  }
+  .DocMainInfoPhoto :nth-child(3) :nth-child(1):hover
+  {
+    background-color: #59443F;
+    transform: scale(1.1);
+    filter: drop-shadow(0px 4px 10px #59443F);
+    box-shadow: inset 0px 4px 20px #59443F;
+  }

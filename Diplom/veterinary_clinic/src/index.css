@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+.footer_logo_name
+{
+  font-family: 'EB+Garamond';
+  font-size: 50px;
+  font-weight: 800;
+}
+body
+{
+   background-color: rgb(255,254,254); 
+   user-select: none; /* Запрет выделения текста */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+  }
+a
+{
+  list-style-type: none;
+  text-decoration: none;
+}
+html
+{
+    height: 100%;
+}
+main
+{
+    height: 100%;
+    flex-grow: 1;
+    text-align: left;
+}
+.footer_logo_name {
+  font-family: 'EB Garamond';
+  font-size: 50px;
+  font-weight: 800;
+}
+body {
+  background-color: rgb(255, 254, 254);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+html, body {
+  height: 100%;
+}
+main {
+  height: 100%;
+  flex-grow: 1;
+  text-align: left;
+}
+
+
+
+
+
+
+.services_buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  justify-content: center; 
+  padding: 0 150px;
+  grid-row-gap: 70px;
+}
+.services_buttons :hover
+{
+  transform: translateY(-5px);
+}
+.service_button
+ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+  text-align: center;
+}
+.services_buttons_item
+{
+  width: 250px;
+  height: 170px; 
+  border-radius: 15px;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: 0 3px 10px 0 rgba(142, 146, 146, 0.75);
+  transition: all 0.2s; 
+  cursor: pointer;
+}
+.services_buttons_item h4
+{
+  font-family:'EB-Garamond';
+  font-weight: 500;
+  font-size: 24px;
+  color: #59443F;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-left: 20px;
+  pointer-events: none;
+}
+.services_buttons_item p
+{
+  font-family:'Raleway';
+  font-weight: 530;
+  font-size: 11px;
+  color: #C3B9B5;
+  text-align: left;
+  margin-left: 10px;
+  pointer-events: none;
+}
+.services_buttons_item img
+{
+  margin-left: 100px;
+  pointer-events: none;
+  padding-top: 20px;
+}
+
+
+
+
+
+.advantages_title
+{
+  margin-bottom: 20px;
+  font-family: 'EB-Garamond';
+  font-size: 48px;
+  text-align: center;
+  color: #59443F;
+  margin-top: 100px;
+}
+.post-title{
+  font-family: 'EB-Garamond';
+  font-size: 20px;
+  flex:1;
+  grid-column: 1 / -1;
+  color: #080606;
+}
+.nav_advant
+{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Создание 3 столбцов */
+  gap: 5px; /* Расстояние между элементами */
+
+}
+.post 
+{
+  grid-template-rows: 30% 70%;
+  padding: 20px; /* Добавление отступов для размещения контента */
+  display: grid;
+  grid-template-columns: 35% 65%; /* Создаем две колонки - для изображения и контента */
+  padding: 70px; /* Добавление отступов для размещения контента */
+  justify-content: center;
+  transition: transform 0.3s; 
+  cursor: pointer;
+  
+}
+.post:hover {
+  transform: translateY(-8px); /* При наведении компонент будет приподниматься вверх на 5px */
+}
+
+.post_img {
+  grid-column: 1; /* Это изображение будет в первой колонке */
+  margin-right: 10px;
+
+}
+
+.post_img img {
+  max-width: 100px; /* Максимальная ширина изображения, чтобы избежать перекоса макета */
+}
+
+.post_content {
+  grid-column: 2; /* Этот блок контента будет во второй колонке */
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: justify;
+  color: 59443F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

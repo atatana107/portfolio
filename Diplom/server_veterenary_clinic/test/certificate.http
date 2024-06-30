@@ -1,0 +1,56 @@
+
+//сертификаты CRUD
+### Список всех
+GET /api/certificate/getall HTTP/1.1
+Host: localhost:7000
+### Получить один
+GET /api/certificate/getone/1 HTTP/1.1
+Host: localhost:7000
+### Создать
+POST /api/certificate/create HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_certificate": 1,
+    "Certificate": "путь_1",
+    "Create_time": "2024-08-04 14:20:00",
+    "ID_doctor": 1
+}
+### создание анализа с файлом
+POST /api/certificate/create HTTP/1.1
+Host: localhost:7000
+Content-Type: multipart/form-data; boundary=MultiPartFormDataBoundary
+
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="ID_doctor"
+
+1
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="ID_certificate"
+
+1
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Create_time"
+
+2023-06-01 11:47:00
+--MultiPartFormDataBoundary
+Content-Disposition: form-data; name="Certificate"; filename="Сертификат.pdf"
+Content-Type: application/pdf
+
+<./Сертификат.pdf>
+--MultiPartFormDataBoundary--
+### Обновить
+PUT /api/certificate/update/1 HTTP/1.1
+Host: localhost:7000
+Content-Type: application/json
+
+{
+    "ID_certificate": 1,
+    "Certificate": "путь_2",
+    "Create_time": "2024-08-04 14:20:00",
+    "ID_doctor": 1
+}
+### Удалить
+DELETE /api/certificate/delete/1 HTTP/1.1
+Host: localhost:7000

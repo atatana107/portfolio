@@ -1,0 +1,168 @@
+.pdf_upload_container div p
+{
+    margin-top: -22px;
+    color: black;
+    font-family: 'Raleway';
+    font-size: 13px;
+    margin-left: 30px;
+}
+.pdf_upload_container div :nth-child(3)
+{
+    margin-top: -15px;
+    color: #C3B9B5;
+    font-family: 'Raleway';
+    font-size: 12px;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+.custom_file_upload_cont .custom_file_upload input
+{
+   display: none; 
+}
+.custom_file_upload {
+    
+    display: inline-block;
+    padding: 4px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #000000;
+    border-radius: 5px;
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .pdf_upload_container div
+  {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: auto;
+    padding: 10px 8px;
+    border: 1px solid #C3B9B5;
+    border-radius: 15px;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: 0 3px 10px 0 rgba(142, 146, 146, 0.75);
+    height: auto;
+    margin-right: 100px;
+    margin-left: 10px;
+  }
+  .pdf_upload_container .createCard
+  {
+    margin-top: 10px;
+    margin-right: 15px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    font-family: 15px;
+    border: none;
+    font-family: 'Open Sans';
+    color: #ffffff;
+    background-color: #FFC59E;
+    font-weight: 600;
+  }
+  .pdf_upload_container .createCard:hover
+  {
+    transform: scale(1.1);
+    background-color: #C3B9B5;
+    cursor: pointer;
+  }
+  .pdf_upload_container .deleteCard
+  {
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    border:none;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #FFC59E;
+  }
+  .pdf_upload_container .deleteCard:hover
+  {
+    transform: scale(1.1);
+    background-color: #C3B9B5;
+    cursor: pointer;
+  }
+
+.modal_create_card
+{
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+  
+.modal_create_card input
+{
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  height: 25px;
+  
+
+
+}
+
+.modal_create_card input::placeholder
+{
+  padding-left: 20px;
+  color: #C3B9B5;
+}
+.modal_create_card :nth-child(1)
+{
+ 
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  font-family: 'Raleway';
+  font-size: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 280px;
+  margin-top: -15px;
+}
+.modal_create_card :nth-child(2)
+{
+  margin-bottom: 40px;
+  margin-top: -10px;
+}
+.modal_create_card label
+{
+  
+  height: 30px;
+  width: 150px;
+  margin-top: 100px;
+  margin-left: -10px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  background-color: #FFC59E;
+  color: #ffffff;
+}
+.ModalInfo
+{
+  background-color: #ffffff;
+  color: #524538;
+  font-family: 'Raleway';
+  width: 400px;
+  height: 100px;
+  align-items: center;
+  top: 35%;
+  left: 35%;
+  position: fixed;
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+}
+.ModalInfo p
+{
+  padding-left: 100px;
+  padding-top: 35px;
+  font-size: 17px;
+}

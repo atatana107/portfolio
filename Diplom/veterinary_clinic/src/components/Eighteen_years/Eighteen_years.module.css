@@ -1,0 +1,22 @@
+.eighteen_years_title
+{
+  padding-top: 250px;
+  text-align: center;
+  font-family: 'EB-Garamond';
+  font-size: 80px;
+  color: #59443F;
+}
+.eighteen_years_text
+{
+  padding-bottom: 200px;
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 64px;
+}
+.eighteen_years_img
+{
+  position: absolute;
+  top: 3250px; /* Регулируйте смещение вверх/вниз по желанию */
+  left: 945px; /* Регулируйте смещение влево/вправо по желанию */
+  z-index: 1; /* Гарантирует, что элемент telegram_phone будет на переднем плане */
+}
